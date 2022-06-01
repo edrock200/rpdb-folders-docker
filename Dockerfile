@@ -23,7 +23,7 @@ WORKDIR /app/rpdb-folders
 
 VOLUME ["/rpdb/config"]
 VOLUME ["/rpdb/mounts"]
-
+RUN npm i -f
 EXPOSE 8750
 USER 1000
 CMD ["npm", "start"]
