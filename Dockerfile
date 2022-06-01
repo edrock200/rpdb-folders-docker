@@ -25,4 +25,5 @@ VOLUME ["/rpdb/config"]
 VOLUME ["/rpdb/mounts"]
 
 EXPOSE 8750
+USER 1000
 CMD ["npm", "start"]
